@@ -1,0 +1,105 @@
+.top {
+    width: 100%;
+    height: 70px;
+    background-color: #020f2b;
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    font-family: "Josefin Sans", sans-serif;
+    z-index: 999;
+    
+  }
+
+  .logo {
+    flex: 3;
+    margin-left: 35px;
+    font-size: 25px;
+    color: #fff;
+    margin-top: 10px;
+  }
+  
+  
+  .topRight {
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .topCenter {
+    flex: 6;
+    margin-top: 10px;
+   
+  }
+  
+  .topIcon {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #cfcece;
+    cursor: pointer;
+  }
+  
+  .topImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+    margin-left: 50px;
+  }
+  
+  .topList {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;   
+  
+  }
+
+  
+  .topListItem {
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #cfcece;
+  }
+  
+  .topSearchIcon {
+    font-size: 18px;
+    color: #cfcece;
+    cursor: pointer;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 10px;
+  }
+
+  .socialIcons {
+    margin-right: 40px;
+    margin-left: -20px;
+    margin-top: 10px;
+  }
+
+  .loginBtn {
+    background-color: #077979;
+    cursor: pointer;
+    border: 1px solid;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+
+  .registerBtn {
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+  }

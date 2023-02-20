@@ -1,0 +1,56 @@
+.register {
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+        rgba(3, 3, 3, 0.5),
+        rgba(5, 5, 5, 0.5)
+      ),
+      url("https://img.freepik.com/free-photo/wooden-background_24972-623.jpg");
+    background-size: cover;
+  }
+  
+  .registerTitle {
+    font-size: 50px;
+    color: beige;
+  }
+  
+  .registerForm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .registerForm > label {
+    margin: 10px 0;
+    color: beige;
+  }
+  
+  .registerInput {
+    padding: 10px;
+    background-color: white;
+    border: none;
+  }
+  
+  .registerButton {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: rgb(4, 77, 36);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .registerLoginButton {
+    margin-top: 20px;
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid;
+    width: 14%;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+  }
