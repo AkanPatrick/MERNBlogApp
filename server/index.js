@@ -8,6 +8,7 @@ const postRoute = require("./routes/posts");
 const categoryRoute = require("./routes/categories");
 const multer = require("multer");
 const path = require("path");
+const PORT = process.env.PORT || 5000
 
 
 
@@ -18,7 +19,8 @@ app.use(express.json());
 app.use("/images", express.static(path.join(__dirname, "/images")))
 
 
-mongoose.connect(process.env.CONNECTION_URL)
+mongoose.connect("mongodb+srv://akanmernstack:mernblog@cluster0.jvfdwah.mongodb.net/?retryWrites=true&w=majority")
+
 
 .then(console.log("Connected to mongoDB"))
 .catch((err) => console.log(err));
