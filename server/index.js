@@ -19,7 +19,7 @@ app.use(express.json());
 app.use("/images", express.static(path.join(__dirname, "/images")))
 
 
-mongoose.connect("mongodb+srv://akanmernstack:mernblog@cluster0.jvfdwah.mongodb.net/?retryWrites=true&w=majority")
+mongoose.connect(process.env.CONNECTION_URL)
 
 
 .then(console.log("Connected to mongoDB"))
@@ -44,7 +44,7 @@ app.use("/api/users", userRoute);
 app.use("/api/posts", postRoute);
 app.use("/api/categories", categoryRoute);
 
-app.listen("5000", () => {
+app.listen(PORT, () => {
     console.log("Server is running on port 5000")
 });
 
